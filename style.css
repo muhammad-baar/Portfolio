@@ -113,16 +113,22 @@ section:hover {
 }
 
 /* Contact icon styles */
+/* Ensure contact icons are visible in both light and dark modes */
 .contact-icon {
     margin: 10px;
-    font-size: 40px; /* Increase size for better visibility */
-    color: #333;
+    font-size: 35px;
+    color: #333; /* Default color for light mode */
     text-decoration: none;
+}
+
+.dark-mode .contact-icon {
+    color: white !important; /* Ensures visibility in dark mode */
 }
 
 .contact-icon:hover {
     color: #ff4500; /* Change color on hover */
 }
+
 
 @media (max-width: 600px) {
     section {
