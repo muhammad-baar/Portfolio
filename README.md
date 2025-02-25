@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! Built with HTML, CSS, and JavaScript, this site showcases who I am, my projects, and how to reach me.
 
+Demo live site: https://muhammadbaar.netlify.app/
+
 ## 🔥 Features
 - **About Me:** A brief intro to my background and passions.
 - **My Projects:** A collection of my work with descriptions and links.
